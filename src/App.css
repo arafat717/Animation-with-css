@@ -1,0 +1,22 @@
+.main {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.box-1 {
+  position: absolute;
+  background-color: black;
+  height: 150px;
+  width: 100%;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+}
+
+.box-1:hover {
+  transform: translateY(150px);
+}
