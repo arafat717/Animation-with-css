@@ -7,10 +7,7 @@ function App() {
     //   <h1>This is first animation by Arafat Jibon</h1>
     // </div>
     <div className="main">
-      <div className="contianer-2">
-        <div className="box-1"></div>
-        <h1>arafat</h1>
-      </div>
+      <button className="btn">Hover Me</button>
     </div>
   );
 }
