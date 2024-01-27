@@ -105,8 +105,8 @@
 }
 
 .glass {
-  height: 200px;
-  width: 200px;
+  height: 80px;
+  width: 80px;
   background-color: red;
   border-radius: 100%;
   z-index: 3;
@@ -115,11 +115,11 @@
 
 .box {
   background-color: white;
-  height: 80px;
-  width: 80px;
+  height: 30px;
+  width: 30px;
   border-radius: 5px;
   transform: translate(-250px);
-  animation: rotate 1s ease-in-out infinite;
+  animation: rotate 1.5s ease-in-out infinite;
 }
 
 @keyframes rotate {
@@ -137,6 +137,8 @@
 }
 
 /* css clip card animation */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400&family=Roboto+Slab&family=Roboto:ital,wght@1,300&family=Work+Sans&display=swap");
 
 .card-main {
   height: 100vh;
@@ -157,4 +159,32 @@
 
 .card:hover {
   clip-path: circle(76.2% at 51% 56%);
+}
+
+/* added last container css here */
+
+.main-last {
+  background-color: rgb(62, 62, 128);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  font-weight: 700px;
+  font-size: 5rem;
+}
+
+.alphabat {
+  color: white;
+  transition: all ease-in-out;
+  transition-duration: 500ms;
+}
+
+.container:hover .alphabat {
+  color: brown;
+  /* transform: scale(1.5); */
 }
